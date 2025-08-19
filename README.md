@@ -1,2 +1,2 @@
-# SQL-Project
-SQL projects on Data Cleaning and Exploratory Data Analysis
+# MySQL-Project-Layoffs
+MySQL projects on Data Cleaning and Exploratory Data Analysis
