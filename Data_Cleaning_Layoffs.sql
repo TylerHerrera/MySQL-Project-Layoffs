@@ -152,7 +152,7 @@ JOIN layoffs_staging2 t2
 	ON t1.company = t2.company
     AND t1.location = t2.location
 WHERE (t1.industry IS NULL OR t1.industry = '')
-AND (t2.industry IS NOT NULL OR t2.industry = '');
+AND (t2.industry IS NOT NULL AND t2.industry != '');
 
 -- Update layoffs_staging2: if there is null value in industry, replace it with a non-null value in industry.
 
